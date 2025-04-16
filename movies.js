@@ -45,7 +45,7 @@ firstMovie.displayInfo()
 
 function updateMovieRating(title, newRating) {
   for (let i = 0; i < movies.length; i++) {
-    if (movies[i].getTitle === title) {
+    if (movies[i].getTitle == title) {
       movies[i].updateMovieRating(newRating);
       movies[i].displayInfo();
       return;
